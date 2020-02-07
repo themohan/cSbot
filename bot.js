@@ -700,7 +700,7 @@ client.on('message', message => {
         else if (message.content.includes('hi')) {
             message.reply('Hello!');
         }
-        else if (message.content.includes('what\'s up')) {
+        else if (message.content.includes('what\'s up')){
             message.reply('ceiling');
         }
         else if (message.content.includes('wassup')) {
